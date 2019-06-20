@@ -32,14 +32,14 @@ The API here has three main components:
 
 2. Health Check - a generic endpoint at `/healthcheck` used to test if server is responding
 
-![](screenshots/Screen%20Shot%202019-06-20%20at%2010.07.23%20AM.png)
+![](screenshots/Screen%20Shot%202019-06-20%20at%202.04.49%20PM.png)
 
 3. Survival Prediction - the main goal, a RESTful HTTP API 
 
   - responds to url query string or JSON body payload requests with a probability of survival
 
-![](screenshots/Screen%20Shot%202019-06-20%20at%2010.03.38%20AM.png)
+![](screenshots/Screen%20Shot%202019-06-20%20at%202.02.23%20PM.png)
 
   - provides useful responses when requests features don't meet expectations
 
-![](screenshots/Screen%20Shot%202019-06-20%20at%2010.21.18%20AM.png)
+![](screenshots/Screen%20Shot%202019-06-20%20at%202.07.17%20PM.png)
