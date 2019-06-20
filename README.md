@@ -9,8 +9,8 @@ Note the following important nuances:
 Note also the following minor modifications that were made to integrate the original API with CF:
 * Creation of [r.yml](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/r.yml) file that lists required add-on packages (dplyr and plumber in this case)
 * Creation of [manifest.yml](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/manifest.yml) file
-* Creation of [Procfile](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/Procfile) to containin
-* Trivial renaming of 'server.R' file in original code base to 'startscript.R' 
+* Creation of [Procfile](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/Procfile) file 
+* Trivial renaming of 'server.R' file in original code to 'startscript.R' 
 
 To push this app to your CF environment, run the following command after establishing an API endpoint:
 ```
