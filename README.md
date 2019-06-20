@@ -42,4 +42,4 @@ The API here has three main components:
 
   - provides useful responses when requests features don't meet expectations
 
-![](master/screenshots/Screen%20Shot%202019-06-20%20at%2010.21.18%20AM.png)
+![](screenshots/Screen%20Shot%202019-06-20%20at%2010.21.18%20AM.png)
