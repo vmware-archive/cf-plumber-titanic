@@ -22,29 +22,24 @@ An example API is hosted live on a Cloud Foundry environment [here](https://plum
 https://plumber-titanic.apps.pcfdemo.net/survival?Sex=male&Pclass=2&Age=20
 ```
 
-Acknowledgements: Huge thanks to [Ray Buhr](https://raybuhr.github.io/2017/10/making-predictions-over-http/) for the original model training and scoring API developed on R and R-plumber.  Below is the author's description of the API from his git repo:
+Acknowledgements: Huge thanks to [Ray Buhr](https://raybuhr.github.io/2017/10/making-predictions-over-http/) for the original model training and scoring API developed on R and R-plumber.  Below is the author's description of the API, mapped to screenshots of the app running on CF:
 
 The API here has three main components:
 
 1. Landing Page - presents a simple HTML page explaining the API at `/`I
 
-![](screenshots/plumber_landing_page_screenshot.png)
+![](screenshots/Screen%20Shot%202019-06-20%20at%2010.19.22%20AM.png)
 
 2. Health Check - a generic endpoint at `/healthcheck` used to test if server is responding
 
-![](screenshots/plumber_healthcheck_screenshot.png)
+![](screenshots/Screen%20Shot%202019-06-20%20at%2010.07.23%20AM.png)
 
 3. Survival Prediction - the main goal, a RESTful HTTP API 
 
   - responds to url query string or JSON body payload requests with a probability of survival
 
-![](screenshots/plumber_survival_prediction_screenshot.png)
+![](screenshots/Screen%20Shot%202019-06-20%20at%2010.03.38%20AM.png)
 
   - provides useful responses when requests features don't meet expectations
 
-![](screenshots/plumber_survival_error_screenshot.png)
-
-
-And over course, this works from the command line as well. Here is hitting with a simple curl request (piped into jq).
-
-![](screenshots/plumber_curl_screenshot.png)
+![](master/screenshots/Screen%20Shot%202019-06-20%20at%2010.21.18%20AM.png)
