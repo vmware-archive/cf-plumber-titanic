@@ -7,7 +7,7 @@ Note the following important nuances:
 * The port is best set by including PORT <- as.numeric( Sys.getenv('PORT') ) and then supplying PORT as the argument in the pr$run function in [startscript.R](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/startscript.R)
 
 Note also the following minor modifications that were made to integrate the original API with CF:
-* Creation of [r.yml](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/r.yml) file that lists required add-on packages (dplyr and plumber in this case)
+* Creation of [r.yml](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/r.yml) file which lists required add-on packages (dplyr and plumber in this case)
 * Creation of [manifest.yml](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/manifest.yml) file
 * Creation of [Procfile](https://github.com/pivotalsoftware/cf-plumber-titanic/blob/master/Procfile) file 
 * Trivial renaming of 'server.R' file in original code to 'startscript.R' 
