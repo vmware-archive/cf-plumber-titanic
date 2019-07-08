@@ -28,18 +28,20 @@ The API here has three main components:
 
 1. [Landing Page](https://cf-plumber-titanic.apps.pcfone.io) - presents a simple HTML page explaining the API
 
-![](screenshots/Screen%20Shot%202019-07-08%20at%204.39.45%20PM.png)
+![](screenshots/Screen%20Shot%202019-07-08%20at%204.59.27%20PM.png)
 
-2. Health Check - a generic endpoint at `/healthcheck` used to test if server is responding
+2. [Health Check](https://cf-plumber-titanic.apps.pcfone.io/healthcheck) - a generic endpoint at `/healthcheck` used to test if server is responding
 
-![](screenshots/Screen%20Shot%202019-07-08%20at%204.46.01%20PM.png)
+![](screenshots/Screen%20Shot%202019-07-08%20at%205.00.59%20PM.png)
 
 3. Survival Prediction - the main goal, a RESTful HTTP API 
 
   - responds to url query string or JSON body payload requests with a probability of survival
+  - [example below](https://cf-plumber-titanic.apps.pcfone.io/survival?Sex=male&Pclass=2&Age=20) for obtaining survival probability for a passenger in 2nd Class, Aged 20
 
 ![](screenshots/Screen%20Shot%202019-07-08%20at%204.48.40%20PM.png)
 
   - provides useful responses when requests features don't meet expectations
+  - [example below](https://cf-plumber-titanic.apps.pcfone.io/survival?Sex=male&Pclass=2&Age=500) for a request for survivial probabilty for a passenger in 2nd Class, aged 500(!)
 
 ![](screenshots/Screen%20Shot%202019-07-08%20at%204.56.13%20PM.png)
