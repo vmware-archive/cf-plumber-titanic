@@ -17,16 +17,16 @@ To push this app to your CF environment, run the following command after establi
 cf push cf-plumber-titanic -b https://github.com/cloudfoundry/r-buildpack.git
 ```
 
-An example API is hosted live on a Cloud Foundry environment [here](https://plumber-titanic.apps.pcfdemo.net/).  To test the API is working try typing the following into a web browser:
+An example API is hosted live on a Cloud Foundry environment [here](https://cf-plumber-titanic.apps.pcfone.io).  To test the API is working try typing the following into a web browser:
 ```
-https://plumber-titanic.apps.pcfdemo.net/survival?Sex=male&Pclass=2&Age=20
+https://cf-plumber-titanic.apps.pcfone.io/survival?Sex=male&Pclass=2&Age=20
 ```
 
 Acknowledgements: Huge thanks to [Ray Buhr](https://raybuhr.github.io/2017/10/making-predictions-over-http/) for the original model training and scoring API developed on R and R-plumber.  Below is the author's description of the API, mapped to screenshots of the app running on CF:
 
 The API here has three main components:
 
-1. Landing Page - presents a simple HTML page explaining the API at `/`I
+1. [Landing Page](https://cf-plumber-titanic.apps.pcfone.io) - presents a simple HTML page explaining the API
 
 ![](screenshots/Screen%20Shot%202019-06-20%20at%2010.19.22%20AM.png)
 
