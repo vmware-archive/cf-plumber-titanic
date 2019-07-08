@@ -22,7 +22,7 @@ An example API is hosted live on a Cloud Foundry environment [here](https://cf-p
 https://cf-plumber-titanic.apps.pcfone.io/survival?Sex=male&Pclass=2&Age=20
 ```
 
-Acknowledgements: Huge thanks to [Ray Buhr](https://raybuhr.github.io/2017/10/making-predictions-over-http/) for the original model training and scoring API developed on R and R-plumber.  Below is the author's description of the API, mapped to screenshots of the app running on CF:
+Acknowledgements: Huge thanks to [Ray Buhr](https://raybuhr.github.io/blog/posts/making-predictions-over-http/) for the original model training and scoring API developed on R and R-plumber.  Below is the author's description of the API, mapped to screenshots of the app running on CF:
 
 The API here has three main components:
 
